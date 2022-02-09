@@ -1,0 +1,86 @@
+.nav{
+display: flex;
+background-size: 25%;
+justify-content:space-around;
+background-color: rgb(8, 7, 7);
+height: 50px;
+overflow: hidden;
+position: sticky;
+}
+
+a{
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+float: right;
+font-size: 30px;
+}
+
+a:hover{
+
+    background-color: rgb(23, 175, 61);
+    color:black;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: brown;
+    font-style: italic;
+    
+}
+
+
+.drop-down:hover .drop-down-content {
+    display: flex;
+    flex-direction: column;
+}
+.drop-down-content{
+
+    
+    background-color: rgb(23, 175, 61);
+    color:black;
+    display: none;
+    position: absolute;
+
+    min-width: 160px;
+    min-height: 3OOpx;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+   height: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.position{
+display:flex;
+margin-top: 15%;
+
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .totalprice{
+
+    color: grey;
+    font-size: 22px;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
